@@ -30,6 +30,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   min-width: 320px;
+  color: #6d6e70;
   position: relative;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
@@ -180,4 +181,153 @@ a.button {
 
 .button_wrap {
   margin-top: 50px;
+}
+
+.annotation {
+  height: 630px;
+  width: 100%;
+  text-align: center;
+}
+
+.annotation img.arrow {
+  margin-top: 90px;
+}
+
+.annotation .description {
+  width: 450px;
+  margin: 50px auto;
+}
+
+.annotation .description h2 {
+  font-family: "MyriadProRegular", sans-serif;
+  font-family-font-weight: normal;
+  font-size: 31px;
+  color: #6d6e70;
+  text-transform: uppercase;
+}
+
+.annotation .inner-descr {
+  margin: 0 auto;
+  width: 940px;
+  text-align: center;
+}
+
+.annotation .inner-descr p {
+  margin-top: 50px;
+  color: #6d6e70;
+  font-size: 19px;
+}
+
+.advantage {
+  height: 750px;
+}
+
+div.page {
+  height: 300px;
+}
+
+div.page div.img-adv {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  line-height: 300px;
+  float: left;
+  text-align: center;
+}
+
+div.page div.img-adv img {
+  vertical-align: middle;
+}
+
+div.page div.content {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  font-size: 18px;
+  padding: auto;
+}
+
+div.page div.content h2 {
+  margin: 0;
+  height: 30%;
+  text-align: center;
+  padding-top: 40px;
+  display: block;
+  margin-left: 20px;
+  font-size: 25px;
+  color: #99c50a;
+}
+
+div.page div.content p {
+  margin: 0;
+  height: 70%;
+}
+
+div.content-find {
+  height: 300px;
+  width: 100%;
+}
+
+div.content-find .col {
+  width: 50%;
+  height: 100%;
+}
+
+div.content-find .col .img-find {
+  display: inline-block;
+  width: 35%;
+  height: 100%;
+  line-height: 300px;
+  float: left;
+  text-align: center;
+}
+
+div.content-find .col .img-find img {
+  vertical-align: middle;
+}
+
+div.content-find .col div.content {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  font-size: 16px;
+  padding-top: 30px;
+}
+
+div.content-find .col div.content h2 {
+  margin: 0;
+  height: 20%;
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+  margin-left: 10px;
+  font-size: 23px;
+}
+
+div.content-find .col div.content .button_find {
+  height: 20%;
+  margin-top: 20px;
+}
+
+div.content-find .col div.content .button-find {
+  float: left;
+  margin-left: 30px;
+  border-radius: 5px;
+  width: 190px;
+  height: 50px;
+  line-height: 50px;
+}
+
+.col-1 {
+  float: left;
+  background-color: #e2f8ff;
+}
+
+.col-1 .button {
+  background-color: #26a6d1;
+}
+
+.col-2 {
+  float: right;
+  background-color: #f5f9eb;
 }
