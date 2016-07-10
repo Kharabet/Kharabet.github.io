@@ -147,6 +147,11 @@ a.details {
 		font-size: 15px;
 		line-height: 18px;
 	}
+		div.content-find .col div.content .button-find {
+		display: block;
+		float: none;
+		margin: 0 auto;
+	}
 
 	div.page div.img-adv{
 			display: none;
@@ -297,11 +302,7 @@ a.details {
 .annotation .inner-descr p {
 	margin-top: 10px;
 	}
-	div.content-find .col div.content .button-find {
-		display: block;
-		float: none;
-		margin: 0 auto;
-	}
+
 		.sec-footer .feedback .img-feedback img {
     width: 90%;
 }
