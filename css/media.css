@@ -211,13 +211,13 @@ a.details {
 			line-height: 18px;
 		}
 		.img-portr {
-		
+		    left: 18%;
 			height: 40px;
 			line-height: 60px;
 		}
-		.img-portr span {
-			line-height: 40px;
-		}
+	/*	.img-portr span {
+			line-height: 60px;
+		}*/
 		div.content-find .col .img-find {
 			display: none;
 		}
@@ -248,7 +248,11 @@ a.details {
 		margin-bottom: 30px;
 	}
 	.sec-footer .feedback .img-feedback img {
-    width: 70%;
+    width: 90%;
+}
+.sec-footer .feedback .img-feedback .content {
+    width: 75%;
+    left: 13%;
 }
 a.details {
 
@@ -298,6 +302,9 @@ a.details {
 		float: none;
 		margin: 0 auto;
 	}
+		.sec-footer .feedback .img-feedback img {
+    width: 90%;
+}
 
 	}
 
