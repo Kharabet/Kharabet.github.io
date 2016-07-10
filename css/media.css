@@ -124,6 +124,9 @@ div.page div.content {
 		.advantage {
     height: 900px;
 }
+.featured {
+    width: 95%;
+    }
 .featured  .button_featured a.button{
 		width: 140px;
 	}
