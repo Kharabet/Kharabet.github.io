@@ -27,10 +27,10 @@
 	.sec-footer .feedback .img-feedback .content h2 {
 		line-height: 15px;
 	}
-	.sec-footer .feedback .img-feedback .content p {
+/*	.sec-footer .feedback .img-feedback .content p {
 		font-size: 12px;
 		line-height: 12px;
-	}
+	}*/
 	.sec-footer .feedback .img-feedback .content h2 {
 		font-size: 16px;
 		margin: 8px auto;
@@ -41,7 +41,7 @@
 		line-height: 13px;
 	}
 	.sec-footer .feedback .img-feedback img{
-		height: 110px;
+		height: 120px;
 	}
 }
 
