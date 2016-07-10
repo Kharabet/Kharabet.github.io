@@ -131,7 +131,7 @@ a.details {
 	margin-right: 20px;
 	margin-top: 10px;
 	float: right;
-	font-size: 13px;
+	font-size: 12px;
 }
 .progress  {
 	font-size: 11.5px;
@@ -147,6 +147,7 @@ a.details {
 		font-size: 15px;
 		line-height: 18px;
 	}
+
 	div.page div.img-adv{
 			display: none;
 		}
@@ -157,6 +158,13 @@ a.details {
 
 				text-align: center;
 	}
+	span.after {
+    display: inline-block;
+    border-bottom: 5px solid transparent;
+    border-top: 5px solid transparent;
+    margin-left: 0px;
+    border-left: 10px solid #99c50a;
+}
 /*	.navbar ul{
 		display: none;
 		}*/
@@ -242,6 +250,20 @@ a.details {
 	.sec-footer .feedback .img-feedback img {
     width: 70%;
 }
+a.details {
+
+	font-size: 16px;
+}
+	span.after {
+    display: inline-block;
+    border-bottom: 7px solid transparent;
+    border-top: 7px solid transparent;
+    margin-left: 10px;
+    border-left: 12px solid #99c50a;
+}
+.progress  {
+	font-size: 15px;
+	}
 
 	}
 
