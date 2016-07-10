@@ -37,8 +37,8 @@
 	}
 	.sec-footer .feedback .img-feedback .content p {
 		margin: 10px auto;
-		font-size: 13px;
-		line-height: 13px;
+		font-size: 14px;
+		line-height: 18px;
 	}
 	.sec-footer .feedback .img-feedback img{
 		height: 120px;
@@ -85,6 +85,10 @@ div.page div.content {
 
 	.sec-footer .feedback  {
 		margin-bottom: 100px; 
+	}
+		.sec-footer .feedback .img-feedback .content p {
+		font-size: 14px;
+		line-height: 18px;
 	}
 
 }
@@ -141,7 +145,17 @@ a.details {
 	}
 	.sec-footer .feedback .img-feedback .content p {
 		font-size: 15px;
-		line-height: 15px;
+		line-height: 18px;
+	}
+	div.page div.img-adv{
+			display: none;
+		}
+				div.page div.content{
+				width: 90%;
+				display: block;
+				margin: 0 auto;
+
+				text-align: center;
 	}
 /*	.navbar ul{
 		display: none;
@@ -178,27 +192,20 @@ a.details {
 		a.button{
 			width: 90px;
 		}
-		div.page div.img-adv{
-			display: none;
-		}
-			div.page div.content{
-				width: 90%;
-				display: block;
-				margin: 0 auto;
-
-				text-align: center;
-	}
+		
+	
 		.sec-footer .feedback .img-feedback .content h2 {
 			font-size: 15px;
 		}
 		.sec-footer .feedback .img-feedback .content p {
 			margin: 0;
-			font-size: 12px;
-			line-height: 12px;
+			font-size: 14px;
+			line-height: 18px;
 		}
 		.img-portr {
-			width:40px;
+		
 			height: 40px;
+			line-height: 60px;
 		}
 		.img-portr span {
 			line-height: 40px;
