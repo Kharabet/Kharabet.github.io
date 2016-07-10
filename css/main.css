@@ -29,7 +29,6 @@ body {
   font-family: "MyriadProRegular", sans-serif;
   font-weight: normal;
   font-size: 14px;
-  min-width: 320px;
   color: #6d6e70;
   position: relative;
   line-height: 1.6;
@@ -188,7 +187,7 @@ a.button {
 }
 
 .annotation {
-  height: 630px;
+  min-height: 630px;
   width: 100%;
   text-align: center;
 }
@@ -198,7 +197,8 @@ a.button {
 }
 
 .annotation .description {
-  width: 450px;
+  padding: 10px;
+  max-width: 450px;
   margin: 50px auto;
 }
 
@@ -212,8 +212,9 @@ a.button {
 
 .annotation .inner-descr {
   margin: 0 auto;
-  width: 940px;
+  max-width: 940px;
   text-align: center;
+  padding: 10px;
 }
 
 .annotation .inner-descr p {
@@ -227,7 +228,7 @@ a.button {
 }
 
 div.page {
-  height: 300px;
+  min-height: 300px;
 }
 
 div.page div.img-adv {
@@ -241,6 +242,7 @@ div.page div.img-adv {
 
 div.page div.img-adv img {
   vertical-align: middle;
+  width: 100%;
 }
 
 div.page div.content {
@@ -253,7 +255,7 @@ div.page div.content {
 
 div.page div.content h2 {
   margin: 0;
-  height: 30%;
+  padding-bottom: 20px;
   text-align: center;
   padding-top: 40px;
   display: block;
@@ -264,7 +266,6 @@ div.page div.content h2 {
 
 div.page div.content p {
   margin: 0;
-  height: 70%;
 }
 
 div.content-find {
@@ -274,15 +275,14 @@ div.content-find {
 }
 
 div.content-find .col {
-  width: 50%;
-  height: 100%;
+  max-height: 100%;
 }
 
 div.content-find .col .img-find {
   display: inline-block;
   width: 35%;
   height: 100%;
-  line-height: 300px;
+  line-height: 250px;
   float: left;
   text-align: center;
 }
@@ -292,11 +292,13 @@ div.content-find .col .img-find img {
 }
 
 div.content-find .col div.content {
+  margin-left: 10px;
   display: inline-block;
   width: 60%;
   height: 100%;
   font-size: 16px;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 div.content-find .col div.content h2 {
@@ -311,22 +313,23 @@ div.content-find .col div.content h2 {
 
 div.content-find .col div.content p {
   margin: 0;
-  height: 50%;
+  max-height: 50%;
 }
 
 div.content-find .col div.content .button_find {
   height: 20%;
-  margin-top: 0;
+  margin-top: 25px;
 }
 
 div.content-find .col div.content .button-find {
-  float: left;
+  float: right;
   margin-left: 30px;
   margin-top: 0;
   border-radius: 5px;
   width: 190px;
   height: 50px;
   line-height: 50px;
+  margin-right: 30px;
 }
 
 .col-1 {
@@ -348,17 +351,16 @@ div.content-find .col div.content .button-find {
 }
 
 .featured {
-  height: 120px;
+  min-height: 120px;
   width: 80%;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .featured .content {
   display: inline-block;
-  width: 70%;
   height: 100%;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .featured .content h2 {
@@ -379,7 +381,6 @@ div.content-find .col div.content .button-find {
 
 .featured .button-featured {
   margin: auto;
-  margin-right: 30px;
   height: 50px;
   width: 180px;
   background-color: white;
@@ -397,7 +398,6 @@ div.projects {
 
 div.projects .project {
   display: inline-block;
-  width: 33%;
   padding: 0;
 }
 
@@ -504,6 +504,11 @@ span.after {
 .sec-footer .feedback .img-feedback .content h2 {
   font-size: 21px;
   color: #99c50a;
+  margin: 10px;
+}
+
+.sec-footer .feedback .img-feedback .content p {
+  margin: 0;
 }
 
 .img-portr {
@@ -524,7 +529,7 @@ span.after {
   position: absolute;
   color: #494949;
   display: inline-block;
-  margin-left: 25px;
+  margin-left: 15px;
   line-height: 60px;
   height: 20px;
   width: 100px;
